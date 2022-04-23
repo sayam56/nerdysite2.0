@@ -1,4 +1,6 @@
+@extends('frontend.layouts.main')
 
+@section('main-container')
 	<!-- Page Title Section -->
     <section class="page-title" style="background-image: url(images/background/pattern-16.webp)">
 		<div class="pattern-layer-one" style="background-image: url(images/main-slider/pattern-1.webp)"></div>
@@ -130,4 +132,4 @@
 		</div>
 	</div>
 	<!-- End Sidebar Page Container -->
-	
+@endsection

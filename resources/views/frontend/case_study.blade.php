@@ -1,4 +1,6 @@
+@extends('frontend.layouts.main')
 
+@section('main-container')
 	<!-- Page Title Section -->
     <section class="page-title" style="background-image: url(images/background/pattern-16.png)">
 		<div class="pattern-layer-one" style="background-image: url(images/main-slider/pattern-1.png)"></div>
@@ -464,4 +466,4 @@
         </div>
     </section>
     <!-- End Clients Section -->
-	
+@endsection

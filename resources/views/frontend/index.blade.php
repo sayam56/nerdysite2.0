@@ -1,5 +1,6 @@
+@extends('frontend.layouts.main')
 
-	
+@section('main-container')
 	<!-- Banner Section -->
 	<section class="banner-section">
 		<div class="main-slider-carousel owl-carousel owl-theme">   
@@ -924,5 +925,4 @@
 		</div>
 	</section>
 	<!-- End Contact Form Section -->
-	
-	
+@endsection
