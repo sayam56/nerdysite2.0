@@ -3,7 +3,7 @@
 @section('main-container')
 	<!-- Banner Section -->
 	<section class="banner-section">
-		<div class="main-slider-carousel owl-carousel owl-theme">   
+		<div class="main-slider-carousel owl-carousel owl-theme">
 
 			<div class="slide" style="background-image: url(images/main-slider/image-1.webp)">
 				<div class="patern-layer-one" style="background-image: url(images/main-slider/pattern-1.webp)"></div>
@@ -14,7 +14,7 @@
 					<li><a href="https://www.facebook.com/nerdevolution.tech/" target="_blank" class="fa fa-facebook-f"></a></li>
 
 					<li>
-						<a href="https://instagram.com/nerdevolution.tech" target="_blank" aria-hidden="true" class="svgInstaIcon"> 
+						<a href="https://instagram.com/nerdevolution.tech" target="_blank" aria-hidden="true" class="svgInstaIcon">
 							<svg version="1.1" height="18px" width="18px" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 							viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
 					    <g>
@@ -67,7 +67,7 @@
 					    <g>
 					    </g>
 					    </svg>
-					    
+
 						</a>
 					</li>
 					<li><a href="mailto:admin@nerdevolution.tech" class="fa fa-envelope"></a></li>
@@ -75,7 +75,7 @@
 				</ul>
 				<div class="auto-container">
 					<div class="row clearfix">
-					
+
 						<!-- Content Column -->
 						<div class="content-column col-lg-6 col-md-12 col-sm-12">
 							<div class="inner-column">
@@ -87,40 +87,40 @@
 								</div>
 							</div>
 						</div>
-						
+
 						<!-- Image Column -->
 						<div class="image-column col-lg-6 col-md-12 col-sm-12">
 							<div class="inner-column imageColMargin">
 								<div class="image">
-									<img loading="lazy" src="images/main-slider/content-image-1.webp" alt=" A nerd developer working on computer and generating ideas" />
+									<img loading="lazy" src="{{url('frontend/images/main-slider/content-image-1.webp')}}" alt=" A nerd developer working on computer and generating ideas" />
 								</div>
 								<div class="images-icons parallax-scene-1">
-									
+
 									<div class="image-2" data-depth="0.50">
-										<img loading="lazy" src="images/main-slider/icon-2.webp" alt="a few small boxes having containing HTML, PHP, CSS and C++
+										<img loading="lazy" src="{{url('frontend/images/main-slider/icon-2.webp')}}" alt="a few small boxes having containing HTML, PHP, CSS and C++
 										" />
 									</div>
 									<div class="image-3" data-depth="0.90">
-										<img loading="lazy" src="images/main-slider/icon-3.webp" alt="a color palette on a digital art board" />
+										<img loading="lazy" src="{{url('frontend/images/main-slider/icon-3.webp')}}" alt="a color palette on a digital art board" />
 									</div>
 									<div class="image-4" data-depth="0.70">
-										<img loading="lazy" src="images/main-slider/icon-4.webp" alt="a mobile phone icon" />
+										<img loading="lazy" src="{{url('frontend/images/main-slider/icon-4.webp')}}" alt="a mobile phone icon" />
 									</div>
-									<!-- <div class="image-5" data-depth="0.50">
-										<img src="images/main-slider/icon-5.webp" alt="" />
+									{{-- <!-- <div class="image-5" data-depth="0.50">
+										<img src="i{{url('frontend/mages/main-slider/icon-5.webp')}}" alt="" />
 									</div>
 									<div class="image-6" data-depth="0.50">
-										<img src="images/main-slider/icon-6.webp" alt="" />
-									</div> -->
+										<img src="{{url('frontend/images/main-slider/icon-6.webp')}}" alt="" />
+									</div> --> --}}
 								</div>
 							</div>
 						</div>
-						
+
 					</div>
-					
+
 				</div>
 			</div>
-			
+
 			<div class="slide" style="background-image: url(images/main-slider/image-1.webp)">
 				<div class="patern-layer-one" style="background-image: url(images/main-slider/pattern-1.webp)"></div>
 				<div class="patern-layer-two" style="background-image: url(images/main-slider/pattern-2.webp)"></div>
@@ -130,7 +130,7 @@
 					<li><a href="https://www.facebook.com/nerdevolution.tech/" target="_blank" class="fa fa-facebook-f"></a></li>
 
 					<li>
-						<a href="https://instagram.com/nerdevolution.tech" target="_blank" aria-hidden="true" class="svgInstaIcon"> 
+						<a href="https://instagram.com/nerdevolution.tech" target="_blank" aria-hidden="true" class="svgInstaIcon">
 							<svg version="1.1" height="18px" width="18px" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 							viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
 					    <g>
@@ -183,7 +183,7 @@
 					    <g>
 					    </g>
 					    </svg>
-					    
+
 						</a>
 					</li>
 					<li><a href="mailto:admin@nerdevolution.tech" class="fa fa-envelope"></a></li>
@@ -191,7 +191,7 @@
 				</ul>
 				<div class="auto-container">
 					<div class="row clearfix">
-					
+
 						<!-- Content Column -->
 						<div class="content-column col-lg-6 col-md-12 col-sm-12">
 							<div class="inner-column">
@@ -203,7 +203,7 @@
 								</div>
 							</div>
 						</div>
-						
+
 						<!-- Image Column -->
 						<div class="image-column col-lg-6 col-md-12 col-sm-12">
 							<div class="inner-column imageColMargin">
@@ -235,18 +235,18 @@
 								</div>
 							</div>
 						</div>
-						
+
 					</div>
-					
+
 				</div>
 			</div>
-			
-			
+
+
 		</div>
-		
+
 	</section>
 	<!-- End Banner Section -->
-	
+
 	<!-- why choose us  -->
 	<section class="services-section-three">
 		<div class="pattern-layer-one" style="background-image: url(images/icons/icon-8.webp)"></div>
@@ -255,13 +255,13 @@
 		<div class="auto-container">
 			<div class="color-layer"></div>
 			<div class="row clearfix">
-				
+
 				<!-- Blocks Column -->
 				<div class="blocks-column col-lg-6 col-md-12 col-sm-12">
 					<div class="inner-column">
 						<div class="color-layer"></div>
 						<div class="row clearfix">
-							
+
 							<!-- Service Block Three -->
 							<div class="service-block-three col-lg-6 col-md-6 col-sm-12">
 								<div class="inner-box wow fadeInUp servicesItem" data-wow-delay="0ms" data-wow-duration="1500ms">
@@ -273,7 +273,7 @@
 									<div class="text">We create the most eye-catching unique designs tailored towards your needs.</div>
 								</div>
 							</div>
-							
+
 							<!-- Service Block Three -->
 							<div class="service-block-three col-lg-6 col-md-6 col-sm-12">
 								<div class="inner-box wow fadeInUp" data-wow-delay="150ms" data-wow-duration="1500ms">
@@ -287,7 +287,7 @@
 									</div>
 								</div>
 							</div>
-							
+
 							<!-- Service Block Three -->
 							<div class="service-block-three col-lg-6 col-md-6 col-sm-12">
 								<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
@@ -301,7 +301,7 @@
 									</div>
 								</div>
 							</div>
-							
+
 							<!-- Service Block Three -->
 							<div class="service-block-three col-lg-6 col-md-6 col-sm-12">
 								<div class="inner-box wow fadeInUp" data-wow-delay="150ms" data-wow-duration="1500ms">
@@ -314,11 +314,11 @@
 									<div class="text">Great after-sales services after delivery. Nerds care for nerds.</div>
 								</div>
 							</div>
-							
+
 						</div>
 					</div>
 				</div>
-				
+
 				<!-- Content Column -->
 				<div class="content-column col-lg-6 col-md-12 col-sm-12">
 					<div class="inner-column">
@@ -341,8 +341,8 @@
 		</div>
 	</section>
 	<!-- why choose us -->
-	
-	
+
+
 	<!-- Services Section Five -->
 	<section class="services-section-five">
 		<div class="auto-container">
@@ -352,7 +352,7 @@
 				<h2>Make Your Life Easier With Nerds' Help</h2>
 				<div class="text">We understand the challenge you face and so, we promise to provide you with remarkable <br> services that will help you overcome all the challenges.</div>
 			</div>
-			
+
 			<div class="services-carousel owl-carousel owl-theme owl-drag">
 				<!-- Service Block six graphics design -->
 				<div class="service-block-five">
@@ -372,7 +372,7 @@
 							<div class="social-inner">
 								<span class="share-now fa fa-arrow-right"></span>
 								<a href="projects.html"><span class="expanded-button">See Our Work</span></a>
-								
+
 							</div>
 						</div>
 					</div>
@@ -395,12 +395,12 @@
 							<div class="social-inner">
 								<span class="share-now fa fa-arrow-right"></span>
 								<a href="projects.html"><span class="expanded-button">See Our Work</span></a>
-								
+
 							</div>
 						</div>
 					</div>
 				</div>
-				
+
 				<!-- Service Block Five functional CV-->
 				<div class="service-block-five">
 					<div class="inner-box">
@@ -419,12 +419,12 @@
 							<div class="social-inner">
 								<span class="share-now fa fa-arrow-right"></span>
 								<a href="projects.html"><span class="expanded-button">See Our Work</span></a>
-								
+
 							</div>
 						</div>
 					</div>
 				</div>
-				
+
 				<!-- Service Block Five Software Solution-->
 				<div class="service-block-five">
 					<div class="inner-box">
@@ -443,7 +443,7 @@
 							<div class="social-inner">
 								<span class="share-now fa fa-arrow-right"></span>
 								<a href="projects.html"><span class="expanded-button">See Our Work</span></a>
-								
+
 							</div>
 						</div>
 					</div>
@@ -465,7 +465,7 @@
 							<div class="social-inner">
 								<span class="share-now fa fa-arrow-right"></span>
 								<a href="projects.html"><span class="expanded-button">See Our Work</span></a>
-								
+
 							</div>
 						</div>
 					</div>
@@ -488,17 +488,17 @@
 							<div class="social-inner">
 								<span class="share-now fa fa-arrow-right"></span>
 								<a href="projects.html"><span class="expanded-button">See Our Work</span></a>
-								
+
 							</div>
 						</div>
 					</div>
 				</div>
-				
+
 			</div>
 		</div>
 	</section>
 	<!-- End Services Section Four -->
-	
+
 	<!-- Counter Section -->
 	<section class="counter-section style-two">
 		<div class="auto-container">
@@ -561,13 +561,13 @@
 		</div>
 	</section>
 	<!-- End Counter Section -->
-	
+
 	<!-- Call To Action Section -->
     <section class="call-to-action-section style-two" style="background-image: url(images/background/map-pattern.webp)">
 		<div class="circle-layer" style="background-image: url(images/resource/cta-bg.webp)"></div>
         <div class="auto-container">
 			<div class="row clearfix">
-				
+
 				<!-- Title Column -->
 				<div class="title-column col-lg-6 col-md-12 col-sm-12">
 					<div class="inner-column">
@@ -576,7 +576,7 @@
 						<a href="contact.html" class="theme-btn btn-style-four"><span class="txt">Hire The Nerds</span></a>
 					</div>
 				</div>
-				
+
 				<!-- Image Column -->
 				<div class="image-column col-lg-6 col-md-12 col-sm-12">
 					<div class="inner-column">
@@ -585,14 +585,14 @@
 						</div>
 					</div>
 				</div>
-				
+
 			</div>
 		</div>
 	</section>
 	<!-- End Call To Action Section -->
-	
+
 	<!-- Team Section Would Go Here -->
-	
+
 	<!-- Testimonial Section -->
 	<section class="testimonial-section">
 		<div class="icon-layer-one" style="background-image: url(images/icons/icon-3.webp)"></div>
@@ -607,7 +607,7 @@
 				<h2>What Do Clients Have to Say <br> About NerdEvolution?</h2>
 				<div class="text">Providing quality service has always been the first priority and therefore, customer reviews <br> matter to us in order to excel in the industry.</div>
 			</div>
-			
+
 			<div class="testimonial-carousel owl-carousel owl-theme">
 
 				<!-- Testimonial Block -->
@@ -658,7 +658,7 @@
 						</div>
 					</div>
 				</div>
-				
+
 				<!-- Testimonial Block -->
 				<div class="testimonial-block">
 					<div class="inner-box">
@@ -707,8 +707,8 @@
 						</div>
 					</div>
 				</div>
-								
-				
+
+
 				<!-- Testimonial Block -->
 				<div class="testimonial-block">
 					<div class="inner-box">
@@ -733,15 +733,15 @@
 						</div>
 					</div>
 				</div>
-				
+
 			</div>
-			
+
 		</div>
 	</section>
 	<!-- End Testimonial Section -->
-	
+
 	<!-- Pricing Section -->
-	
+
 	<section class="services-section-five">
 		<div class="auto-container">
 			<!-- Sec Title -->
@@ -754,7 +754,7 @@
 				<h2>Our Pricing Table</h2>
 				<div class="text">We offer multiple packages to suit your various needs. Each service is designed to <br>help you and your organization achieve the best outcome.</div>
 			</div>
-			
+
 			<div class="services-carousel owl-carousel owl-theme owl-drag">
 				<!-- Service Block six graphics design -->
 				<div class="price-block">
@@ -777,7 +777,7 @@
 						<a href="./graphics-design.html" class="title" style="white-space: nowrap;">Graphics Design</a>
 						<div class="startingFrom">Starting From</div>
 						<div class="price">&#2547;5,000</div>
-						<ul class="price-list">	
+						<ul class="price-list">
 							<li>Client Sessions</li>
 							<li>Sketches + Color Board</li>
 							<li>Printable Delivery</li>
@@ -835,39 +835,39 @@
 						<div class="price-pattern-layer" style="background-image: url(images/background/price-pattern-3.webp)"></div>
 					</div>
 				</div>
-				
-				
-				
-				
-				
+
+
+
+
+
 			</div>
 		</div>
 	</section>
 	<!-- End Services Section Four -->
 	<!-- End Pricing Section -->
-	
+
 	<!-- Clients Section -->
-    <!-- <section class="clients-section">
+    {{-- <!-- <section class="clients-section">
         <div class="auto-container">
-            
+
             <div class="sponsors-outer">
                 Sponsors Carousel
                 <ul class="sponsors-carousel owl-carousel owl-theme">
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/1.webp" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/2.webp" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/3.webp" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/4.webp" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/5.webp" alt=""></a></figure></li>
-					<li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/1.webp" alt=""></a></figure></li>
-					<li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/2.webp" alt=""></a></figure></li>
-					<li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/3.webp" alt=""></a></figure></li>
+                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="{{url('frontend/images/clients/1.webp')}}" alt=""></a></figure></li>
+                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="{{url('frontend/images/clients/2.webp')}}" alt=""></a></figure></li>
+                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="{{url('frontend/images/clients/3.webp')}}" alt=""></a></figure></li>
+                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="{{url('frontend/images/clients/4.webp')}}" alt=""></a></figure></li>
+                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="{{url('frontend/images/clients/5.webp')}}" alt=""></a></figure></li>
+					<li class="slide-item"><figure class="image-box"><a href="#"><img src="{{url('frontend/images/clients/1.webp')}}" alt=""></a></figure></li>
+					<li class="slide-item"><figure class="image-box"><a href="#"><img src="{{url('frontend/images/clients/2.webp')}}" alt=""></a></figure></li>
+					<li class="slide-item"><figure class="image-box"><a href="#"><img src="{{url('frontend/images/clients/3.webp')}}" alt=""></a></figure></li>
                 </ul>
             </div>
-            
+
         </div>
-    </section> -->
+    </section> --> --}}
     <!-- End Clients Section -->
-	
+
 	<!-- Contact Form Section -->
     <section class="contact-form-section" style="margin-top: 100px;">
     	<div class="auto-container">
@@ -878,49 +878,49 @@
 				<div class="text">We, the nerds care about you and so, your words do matter to us. Reach out to us with whatever you <br> have in mind. Cheers!</div>
 			</div>
 			<div class="inner-container">
-				
+
 				<!-- Contact Form -->
 				<div class="contact-form">
-					
+
 					<!--Contact Form-->
 					<form method="post" action="sendemail.php" id="contact-form">
 						<div class="row clearfix">
-						
+
 							<div class="col-lg-6 col-md-6 col-sm-12 form-group">
 								<span class="icon flaticon-user-2"></span>
 								<input type="text" name="username" placeholder="Your Name" required>
 							</div>
-							
+
 							<div class="col-lg-6 col-md-6 col-sm-12 form-group">
 								<span class="icon flaticon-phone-call"></span>
 								<input type="text" name="phone" placeholder="Your Phone" required>
 							</div>
-							
+
 							<div class="col-lg-6 col-md-6 col-sm-12 form-group">
 								<span class="icon flaticon-big-envelope"></span>
 								<input type="email" name="email" placeholder="Email" required>
 							</div>
-							
+
 							<div class="col-lg-6 col-md-6 col-sm-12 form-group">
 								<span class="icon flaticon-notepad"></span>
 								<input type="text" name="subject" placeholder="Subject" required>
 							</div>
-							
+
 							<div class="col-lg-12 col-md-12 col-sm-12 form-group">
 								<span class="icon flaticon-message"></span>
 								<textarea name="message" placeholder="Message"></textarea>
 							</div>
-							
+
 							<div class="col-lg-12 col-md-12 col-sm-12 text-center form-group">
 								<button class="theme-btn btn-style-seven" type="submit" name="submit-form"><span class="txt">Submit Now</span></button>
 							</div>
-							
+
 						</div>
 					</form>
-					
+
 					<!--End Contact Form -->
 				</div>
-				
+
 			</div>
 		</div>
 	</section>

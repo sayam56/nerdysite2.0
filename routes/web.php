@@ -1,6 +1,12 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Frontend\HomeController;
+use App\Http\Controllers\Frontend\AboutController;
+use SebastianBergmann\CodeCoverage\Report\Xml\Project;
+use App\Http\Controllers\Frontend\SearchController;
+use App\Http\Controllers\Frontend\SendMailController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +19,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/',[HomeController::class, 'index']);

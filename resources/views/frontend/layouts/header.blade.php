@@ -10,14 +10,14 @@
 <link rel="canonical" href="https://nerdevolution.tech/">
 
 <!-- Stylesheets -->
-<link href="css/bootstrap.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
-<link href="css/header.css" rel="stylesheet">
-<link href="css/mobile-menu.css" rel="stylesheet">
-<link href="css/searchPopUp.css" rel="stylesheet">
-<link href="css/main-footer.css" rel="stylesheet">
-<link href="css/nerdy-css.css" rel="stylesheet">
-<link href="css/responsive.css" rel="stylesheet">
+<link href="{{url('frontend/css/bootstrap.css')}}" rel="stylesheet">
+<link href="{{url('frontend/css/style.css')}}" rel="stylesheet">
+<link href="{{url('frontend/css/header.css')}}" rel="stylesheet">
+<link href="{{url('frontend/css/mobile-menu.css')}}" rel="stylesheet">
+<link href="{{url('frontend/css/searchPopUp.css')}}" rel="stylesheet">
+<link href="{{url('frontend/css/main-footer.css')}}" rel="stylesheet">
+<link href="{{url('frontend/css/nerdy-css.css')}}" rel="stylesheet">
+<link href="{{url('frontend/css/responsive.css')}}" rel="stylesheet">
 
 <!-- <link defer href="" rel="stylesheet"> -->
 
@@ -42,42 +42,42 @@
 <body class="hidden-bar-wrapper dark-body" oncontextmenu="return false;">
 
 <div class="page-wrapper">
- 	
+
     <!-- Preloader -->
 	<div class="preloader">
 		<div class="box"></div>
 	</div>
- 	
+
 	<!-- Main Header-->
 	<header class="main-header header-style-one">
-    	
+
 		<!--Header-Upper-->
         <div class="header-upper">
         	<div class="auto-container clearfix customHeaderFixer">
-            	
+
 				<div class="pull-left logo-box">
 					<div class="logo"><a href="/"><img loading="lazy" class="lazy" data-src="images/logo.webp" alt="" title=""></a></div>
 				</div>
-				
+
 				<div class="nav-outer clearfix">
 					<!--Mobile Navigation Toggler-->
 					<div class="mobile-nav-toggler"><span class="icon flaticon-menu flaticonMenuHover"></span></div>
 					<!-- Main Menu -->
 					<nav class="main-menu navbar-expand-md">
 						<div class="navbar-header">
-							<!-- Toggle Button -->    	
+							<!-- Toggle Button -->
 							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
 						</div>
-						
+
 						<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
 							<ul class="navigation clearfix">
 								<li class="current"><a href="#">Home</a>
 								</li>
-								
+
 								<li class="dropdown"><a>Services</a>
 									<ul>
 										<li><a href="services.html">Nerdy Services</a></li>
@@ -85,7 +85,7 @@
 										<li><a href="graphics-design.html">Graphics Design</a></li>
 										<li><a href="functional-resume.html">Functional CV</a></li>
 										<li><a href="social_media_marketing.html">Social Media Marketing</a></li>
-										<li><a href="ui_ux_design.html">UI/UX Design</a></li>	
+										<li><a href="ui_ux_design.html">UI/UX Design</a></li>
 										<li><a href="brand_identity.html">Brand Identity</a></li>
 									</ul>
 								</li>
@@ -102,26 +102,26 @@
 								</li>
 								<li><a href="case_study.html">Case Study</a></li>
 								<li><a href="contact.html">Contact us</a></li>
-								
+
 								<div class="responsiveLogo"><a href="/"><img loading="lazy" class="lazy" data-src="images/logo.webp" alt="" title=""></a></div>
-								
+
 							</ul>
 						</div>
 					</nav>
-					
+
 					<!-- Main Menu End-->
 					<div class="outer-box clearfix">
-					
+
 						<!-- Search Btn -->
 						<div class="search-box-btn search-box-outer"><span class="icon fa fa-search"></span></div>
-							
+
 					</div>
 				</div>
-				
+
             </div>
         </div>
         <!--End Header Upper-->
-        
+
 		<!-- Sticky Header  -->
         <div class="sticky-header">
             <div class="auto-container clearfix">
@@ -135,32 +135,32 @@
                     <nav class="main-menu">
                         <!--Keep This Empty / Menu will come through Javascript-->
                     </nav><!-- Main Menu End-->
-					
+
 					<!-- Main Menu End-->
 					<div class="outer-box clearfix">
-						
+
 						<!--Mobile Navigation Toggler-->
 						<div class="mobile-nav-toggler"><span class="icon flaticon-menu flaticonMenuHover flaticonMenuSticky"></span></div>
 
 						<!-- Search Btn -->
 						<div class="search-box-btn search-box-outer"><span class="icon fa fa-search flaticonSearchIcon"></span></div>
-						
+
 					</div>
-					
+
                 </div>
             </div>
         </div><!-- End Sticky Menu -->
-    
+
 		<!-- Mobile Menu  -->
         <div class="mobile-menu">
             <div class="menu-backdrop"></div>
             <div class="close-btn"><span class="icon flaticon-multiply"></span></div>
-            
+
             <nav class="menu-box" style="background-color: #161e29;">
                 <div class="nav-logo"><a href="/"><img loading="lazy" class="lazy" data-src="images/nameLogo.webp" alt="" title=""></a></div>
                 <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
             </nav>
         </div><!-- End Mobile Menu -->
-	
+
 	</header>
     <!-- End Main Header -->

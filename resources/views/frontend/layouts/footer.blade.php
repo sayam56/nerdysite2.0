@@ -6,11 +6,11 @@
 		<div class="auto-container">
 			<!--Widgets Section-->
 			<div class="widgets-section">
-				<div class="row clearfix">	
+				<div class="row clearfix">
 					<!-- Column -->
 					<div class="big-column col-lg-6 col-md-12 col-sm-12">
 						<div class="row clearfix">
-							
+
 							<!-- Footer Column -->
 							<div class="footer-column col-lg-7 col-md-6 col-sm-12">
 								<div class="footer-widget logo-widget">
@@ -84,7 +84,7 @@
 									</div>
 								</div>
 							</div>
-									
+
 							<!-- Footer Column -->
 							<div class="footer-column col-lg-5 col-md-6 col-sm-12">
 								<div class="footer-widget links-widget">
@@ -99,14 +99,14 @@
 									</ul>
 								</div>
 							</div>
-								
+
 						</div>
 					</div>
-						
+
 					<!-- Column -->
 					<div class="big-column col-lg-6 col-md-12 col-sm-12">
 						<div class="row clearfix">
-								
+
 							<!--Footer Column-->
 							<div class="footer-column col-lg-6 col-md-6 col-sm-12">
 								<div class="footer-widget links-widget">
@@ -122,7 +122,7 @@
 							</div>
 
 							<div class="footerSpacing"></div>
-								
+
 							<!-- Footer Column -->
 							<div class="footer-column col-lg-5 col-md-6 col-sm-12">
 								<div class="footer-widget links-widget">
@@ -136,22 +136,22 @@
 									</ul>
 								</div>
 							</div>
-								
+
 						</div>
 					</div>
-					
+
 				</div>
 			</div>
-				
+
 				<!-- Footer Bottom -->
 				<div class="footer-bottom">
 					<div class="copyright">Copyright © 2021 NerdEvolution. All Rights Reserved.</div>
 				</div>
-				
+
 		</div>
 	</footer>
 	<!-- End Main Footer -->
-	
+
 </div>
 <!--End pagewrapper-->
 
@@ -172,9 +172,9 @@
 	<ul class="header-version option-box"> <li class="box">No</li> <li>Yes</li></ul>
 	<h5>Dark Verion</h5>
 	<ul class="dark-version option-box"> <li class="box">Yes</li> <li>No</li></ul>
-	
+
     <a href="#" class="purchase-btn">Purchase now $17</a>
-    
+
     <div class="palate-foo">
         <span>You will find much more options and styling in admin panel.</span>
     </div>
@@ -197,23 +197,23 @@
 <!-- Scroll To Top -->
 <div class="back-to-top scroll-to-target show-back-to-top" data-target="html">TOP</div>
 
-<script src="js/jquery.js"></script>
-<script src="js/popper.min.js" defer></script>
-<script src="js/bootstrap.min.js" defer></script>
-<script src="js/jquery.mCustomScrollbar.concat.min.js" defer></script>
-<script src="js/appear.js" defer></script>
-<script src="js/parallax.min.js" defer></script>
-<script src="js/tilt.jquery.min.js" defer></script>
-<script src="js/jquery.paroller.min.js" defer></script>
-<script src="js/owl.js" defer></script>
-<script src="js/wow.js" defer></script>
-<script src="js/validate.js"></script>
-<!-- <script src="js/nav-tool.js"></script> -->
-<script src="js/script.js" defer></script>
-<script src="js/devToolsDetect.js" defer></script>
-<script src="js/disableDevKey.js" defer></script>
+<script src="{{url('frontend/js/jquery.js')}}"></script>
+<script src="{{url('frontend/js/popper.min.js')}}" defer></script>
+<script src="{{url('frontend/js/bootstrap.min.js')}}" defer></script>
+<script src="{{url('frontend/js/jquery.mCustomScrollbar.concat.min.js')}}" defer></script>
+<script src="{{url('frontend/js/appear.js')}}" defer></script>
+<script src="{{url('frontend/js/parallax.min.js')}}" defer></script>
+<script src="{{url('frontend/js/tilt.jquery.min.js')}}" defer></script>
+<script src="{{url('frontend/js/jquery.paroller.min.js')}}" defer></script>
+<script src="{{url('frontend/js/owl.js')}}" defer></script>
+<script src="{{url('frontend/js/wow.js')}}" defer></script>
+<script src="{{url('frontend/js/validate.js')}}"></script>
+{{--  <script src="{{url('frontend/js/nav-tool.js')}}"></script> --}}
+<script src="{{url('frontend/js/script.js')}}" defer></script>
+{{-- <script src="{{url('frontend/js/devToolsDetect.js')}}" defer></script>
+<script src="{{url('frontend/js/disableDevKey.js')}}" defer></script> --}}
 
-<script src="js/lazyloader.js"></script>
+<script src="{{url('frontend/js/lazyloader.js')}}"></script>
 <!-- updated -->
 </body>
 </html>
