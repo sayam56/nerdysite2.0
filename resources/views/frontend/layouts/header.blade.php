@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <title>NerdEvolution || A Software Service Providing Company</title>
 <meta name="author" content="NerdEvolution">
-<link rel="author" href="humans.txt" />
+<link rel="author" href="{{url('humans.txt')}}" />
 <meta name="description" content="NerdEvolution is a software service provider company offering multi-dimensional services, including software solutions, graphics designing, and functional CV creation. NerdEvolution aims to provide a once-in-a-lifetime journey, where you will witness utmost professionalism and efficiency!">
 <meta name="keywords" content="nerdevolution, nerdevolution tech, nerd, evolution, software company, software, graphics design, graphics designers, resume writer, CV writer, technical resume, technical CV, designer CV, brand design, logo design, nerdevolution bangladesh, UI/UX design, interface design, cross platform mobile app developer, flutter dev, flutter I/O, php dev, php developer, mern stack, mern stack dev, full stack development, web developers, full stack web developers, ">
 <link rel="canonical" href="https://nerdevolution.tech/">
@@ -24,8 +24,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"></noscript>
 
-<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="{{url('frontend/images/favicon.ico')}}" type="image/x-icon">
+<link rel="icon" href="{{url('frontend/images/favicon.ico')}}" type="image/x-icon">
 
 
 
