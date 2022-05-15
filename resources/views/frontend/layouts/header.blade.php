@@ -56,7 +56,7 @@
         	<div class="auto-container clearfix customHeaderFixer">
 
 				<div class="pull-left logo-box">
-					<div class="logo"><a href="/"><img loading="lazy" class="lazy" data-src="images/logo.webp" alt="" title=""></a></div>
+					<div class="logo"><a href="/"><img loading="lazy" class="lazy" data-src="{{url('frontend/images/logo.png')}}" alt="NerdEvolution logo" title="Logo"></a></div>
 				</div>
 
 				<div class="nav-outer clearfix">
@@ -103,7 +103,7 @@
 								<li><a href="case_study.html">Case Study</a></li>
 								<li><a href="contact.html">Contact us</a></li>
 
-								<div class="responsiveLogo"><a href="/"><img loading="lazy" class="lazy" data-src="images/logo.webp" alt="" title=""></a></div>
+								<div class="responsiveLogo"><a href="/"><img loading="lazy" class="lazy" data-src="{{url('frontend/images/logo.png')}}" alt="NerdEvolution Logo" title=""></a></div>
 
 							</ul>
 						</div>
@@ -127,7 +127,7 @@
             <div class="auto-container clearfix">
                 <!--Logo-->
                 <div class="logo pull-left sticky-logo-desktop">
-                    <a href="/" title=""><img loading="lazy" class="lazy" data-src="images/logo.webp" alt="" title=""></a>
+                    <a href="/" title=""><img loading="lazy" class="lazy" data-src="{{url('frontend/images/logo.png')}}" alt="Nerd Evolution logo" title=""></a>
                 </div>
                 <!--Right Col-->
                 <div class="pull-right">
@@ -157,7 +157,7 @@
             <div class="close-btn"><span class="icon flaticon-multiply"></span></div>
 
             <nav class="menu-box" style="background-color: #161e29;">
-                <div class="nav-logo"><a href="/"><img loading="lazy" class="lazy" data-src="images/nameLogo.webp" alt="" title=""></a></div>
+                <div class="nav-logo"><a href="/"><img loading="lazy" class="lazy" data-src="{{url('frontend/images/nameLogo.png')}}" alt="Nerd Evolution mobile logo" title=""></a></div>
                 <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
             </nav>
         </div><!-- End Mobile Menu -->

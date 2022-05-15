@@ -1,8 +1,8 @@
 	<!-- Main Footer -->
     <footer class="main-footer style-three">
-		<div class="pattern-layer customWave" style="background-image: url(images/background/pattern-3.webp);"></div>
-		<div class="pattern-layer-two" style="background-image: url(images/background/pattern-233.webp)"></div>
-		<div class="pattern-layer-three" style="background-image: url(images/background/pattern-5.webp)"></div>
+		<div class="pattern-layer customWave" style="background-image: url({{url('frontend/images/background/pattern-3.webp')}});"></div>
+		<div class="pattern-layer-three" style="background-image: url({{url('frontend/images/background/pattern-5.webp')}})"></div>
+		<div class="pattern-layer-two" style="background-image: url({{url('frontend/images/background/pattern-233.webp')}})"></div>
 		<div class="auto-container">
 			<!--Widgets Section-->
 			<div class="widgets-section">
@@ -16,7 +16,7 @@
 								<div class="footer-widget logo-widget">
 									<div class="footerFirstCol">
 										<div class="logo">
-											<a href="/"><img loading="lazy" class="lazy" data-src="images/nameLogo.webp" alt="" /></a>
+											<a href="/"><img loading="lazy" class="lazy" data-src="{{url('frontend/images/nameLogo.png')}}" alt="Nerd Evolution logo" /></a>
 										</div>
 										<div class="text">Connect With The Nerds</div>
 										<!-- Social Box -->
@@ -145,7 +145,7 @@
 
 				<!-- Footer Bottom -->
 				<div class="footer-bottom">
-					<div class="copyright">Copyright © 2021 NerdEvolution. All Rights Reserved.</div>
+					<div class="copyright">Copyright © 2022 NerdEvolution. All Rights Reserved.</div>
 				</div>
 
 		</div>
