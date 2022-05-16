@@ -90,12 +90,12 @@
 								<div class="footer-widget links-widget">
 									<h4>Nerdy Services</h4>
 									<ul class="list-link">
-										<li><a href="brand_identity.html">Brand Identity</a></li>
-										<li><a href="graphics-design.html">Graphic Design</a></li>
-										<li><a href="ui_ux_design.html">UI/UX Design</a></li>
-										<li><a href="software-solutions.html">Software Solutions</a></li>
-										<li><a href="functional-resume.html">Functional CV</a></li>
-										<li><a href="social_media_marketing.html">Social Media Marketing</a></li>
+										<li><a href="{{url('/services/brand_identity')}}">Brand Identity</a></li>
+										<li><a href="{{url('/services/graphics_design')}}">Graphic Design</a></li>
+										<li><a href="{{url('/services/ui_ux_design')}}l">UI/UX Design</a></li>
+										<li><a href="{{url('/services/software_solutions')}}">Software Solutions</a></li>
+										<li><a href="{{url('/services/functional_resume')}}">Professional CV</a></li>
+										<li><a href="{{url('/services/social_media_marketing')}}">Social Media Marketing</a></li>
 									</ul>
 								</div>
 							</div>
@@ -112,10 +112,10 @@
 								<div class="footer-widget links-widget">
 									<h4>Other Pages</h4>
 									<ul class="list-link">
-										<li><a href="./faq.html">FAQ</a></li>
-										<li><a href="./terms.html">Terms & Conditions</a></li>
-										<li><a href="./privacy.html">Privacy Policy</a></li>
-										<li><a href="./team.html">Know The Nerds</a></li>
+										<li><a href="{{url('/about/faq')}}">FAQ</a></li>
+										<li><a href="{{url('/about/terms_conditions')}}">Terms & Conditions</a></li>
+										<li><a href="{{url('/about/privacy_policy')}}">Privacy Policy</a></li>
+										<li><a href="{{url('/about/teams')}}">Know The Nerds</a></li>
 										<!-- <li><a href="">Student Friendly Source Code</a></li> -->
 									</ul>
 								</div>

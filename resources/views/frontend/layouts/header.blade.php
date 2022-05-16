@@ -84,7 +84,7 @@
 										<li><a href="{{url('/services/software_solutions')}}">Software Solutions</a></li>
 										<li><a href="{{url('/services/graphics_design')}}">Graphics Design</a></li>
 										<li><a href="{{url('/services/functional_resume')}}">Functional CV</a></li>
-										<li><a href="{{url('/services/social_media_marketing')}}">Social Media Marketing</a></li>
+										<li><a href="{{url('/services/social_media_marketing')}}" style="white-space: nowrap;">Social Media Marketing</a></li>
 										<li><a href="{{url('/services/ui_ux_design')}}">UI/UX Design</a></li>
 										<li><a href="{{url('/services/brand_identity')}}">Brand Identity</a></li>
 									</ul>
@@ -94,10 +94,10 @@
 								<li class="dropdown"><a>About</a>
 									<ul>
 										<li><a href="{{url('/about')}}">About Us</a></li>
-										<li><a href="faq.html">FAQs</a></li>
-										<li><a href="team.html">Team</a></li>
-										<li><a href="terms.html">Terms & Condition</a></li>
-										<li><a href="privacy.html">Privacy Policy</a></li>
+										<li><a href="{{url('/about/faq')}}">FAQs</a></li>
+										<li><a href="{{url('/about/teams')}}">Team</a></li>
+										<li><a href="{{url('/about/terms_conditions')}}">Terms & Conditions</a></li>
+										<li><a href="{{url('/about/privacy_policy')}}">Privacy Policy</a></li>
 									</ul>
 								</li>
 								<li><a href="{{url('/casestudy')}}">Case Study</a></li>
