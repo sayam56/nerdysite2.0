@@ -164,6 +164,7 @@
 	padding: 10px 10px;
 	margin-bottom: 20px;
 }
+
 #serviceGraphics:hover .design{
 	transition: all 500ms ease;
 	-moz-transition: all 500ms ease;
@@ -191,6 +192,36 @@
 	-ms-transition: all 500ms ease;
 	-o-transition: all 500ms ease;
 	content: url('../images/icons/Resume_on.webp');
+	transition-delay: 0.5s;
+}
+
+#serviceGraphics:hover .brandIdentity{
+	transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-webkit-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	content: url('../images/icons/brandidentity_on.webp');
+	transition-delay: 0.5s;
+}
+
+#serviceGraphics:hover .uiux{
+	transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-webkit-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	content: url('../images/icons/uiux_on.webp');
+	transition-delay: 0.5s;
+}
+
+#serviceGraphics:hover .socialmedia{
+	transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-webkit-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	content: url('../images/icons/socialmedia_on.webp');
 	transition-delay: 0.5s;
 }
 
@@ -248,7 +279,7 @@
 
 /* Change Autocomplete styles in Chrome*/
 /* input:-webkit-autofill,
-input:-webkit-autofill:hover, 
+input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 textarea:-webkit-autofill,
 textarea:-webkit-autofill:hover,
