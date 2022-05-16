@@ -16,7 +16,7 @@
 								<div class="footer-widget logo-widget">
 									<div class="footerFirstCol">
 										<div class="logo">
-											<a href="/"><img loading="lazy" class="lazy" data-src="{{url('frontend/images/nameLogo.png')}}" alt="Nerd Evolution logo" /></a>
+											<a href="{{url('/')}}"><img loading="lazy" class="lazy" data-src="{{url('frontend/images/nameLogo.png')}}" alt="Nerd Evolution logo" /></a>
 										</div>
 										<div class="text">Connect With The Nerds</div>
 										<!-- Social Box -->

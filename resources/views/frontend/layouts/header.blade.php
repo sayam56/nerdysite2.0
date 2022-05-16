@@ -56,7 +56,7 @@
         	<div class="auto-container clearfix customHeaderFixer">
 
 				<div class="pull-left logo-box">
-					<div class="logo"><a href="/"><img loading="lazy" class="lazy" data-src="{{url('frontend/images/logo.png')}}" alt="NerdEvolution logo" title="Logo"></a></div>
+					<div class="logo"><a href="{{url('/')}}"><img loading="lazy" class="lazy" data-src="{{url('frontend/images/logo.png')}}" alt="NerdEvolution logo" title="Logo"></a></div>
 				</div>
 
 				<div class="nav-outer clearfix">
@@ -75,33 +75,33 @@
 
 						<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
 							<ul class="navigation clearfix">
-								<li class="current"><a href="#">Home</a>
+								<li class="current"><a href="{{url('/')}}">Home</a>
 								</li>
 
 								<li class="dropdown"><a>Services</a>
 									<ul>
-										<li><a href="services.html">Nerdy Services</a></li>
-										<li><a href="software-solutions.html">Software Solutions</a></li>
-										<li><a href="graphics-design.html">Graphics Design</a></li>
-										<li><a href="functional-resume.html">Functional CV</a></li>
-										<li><a href="social_media_marketing.html">Social Media Marketing</a></li>
-										<li><a href="ui_ux_design.html">UI/UX Design</a></li>
-										<li><a href="brand_identity.html">Brand Identity</a></li>
+										<li><a href="{{url('/services')}}">Nerdy Services</a></li>
+										<li><a href="{{url('/services/software_solutions')}}">Software Solutions</a></li>
+										<li><a href="{{url('/services/graphics_design')}}">Graphics Design</a></li>
+										<li><a href="{{url('/services/functional_resume')}}">Functional CV</a></li>
+										<li><a href="{{url('/services/social_media_marketing')}}">Social Media Marketing</a></li>
+										<li><a href="{{url('/services/ui_ux_design')}}">UI/UX Design</a></li>
+										<li><a href="{{url('/services/brand_identity')}}">Brand Identity</a></li>
 									</ul>
 								</li>
-								<li class="#"><a href="projects.html">Projects</a></li>
+								<li class="#"><a href="{{url('/projects')}}">Projects</a></li>
 
 								<li class="dropdown"><a>About</a>
 									<ul>
-										<li><a href="about.html">About Us</a></li>
+										<li><a href="{{url('/about')}}">About Us</a></li>
 										<li><a href="faq.html">FAQs</a></li>
 										<li><a href="team.html">Team</a></li>
 										<li><a href="terms.html">Terms & Condition</a></li>
 										<li><a href="privacy.html">Privacy Policy</a></li>
 									</ul>
 								</li>
-								<li><a href="case_study.html">Case Study</a></li>
-								<li><a href="contact.html">Contact us</a></li>
+								<li><a href="{{url('/casestudy')}}">Case Study</a></li>
+								<li><a href="{{url('/contact')}}">Contact us</a></li>
 
 								<div class="responsiveLogo"><a href="/"><img loading="lazy" class="lazy" data-src="{{url('frontend/images/logo.png')}}" alt="NerdEvolution Logo" title=""></a></div>
 
@@ -127,7 +127,7 @@
             <div class="auto-container clearfix">
                 <!--Logo-->
                 <div class="logo pull-left sticky-logo-desktop">
-                    <a href="/" title=""><img loading="lazy" class="lazy" data-src="{{url('frontend/images/logo.png')}}" alt="Nerd Evolution logo" title=""></a>
+                    <a href="{{url('/')}}" title=""><img loading="lazy" class="lazy" data-src="{{url('frontend/images/logo.png')}}" alt="Nerd Evolution logo" title=""></a>
                 </div>
                 <!--Right Col-->
                 <div class="pull-right">
@@ -157,7 +157,7 @@
             <div class="close-btn"><span class="icon flaticon-multiply"></span></div>
 
             <nav class="menu-box" style="background-color: #161e29;">
-                <div class="nav-logo"><a href="/"><img loading="lazy" class="lazy" data-src="{{url('frontend/images/nameLogo.png')}}" alt="Nerd Evolution mobile logo" title=""></a></div>
+                <div class="nav-logo"><a href="{{url('/')}}"><img loading="lazy" class="lazy" data-src="{{url('frontend/images/nameLogo.png')}}" alt="Nerd Evolution mobile logo" title=""></a></div>
                 <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
             </nav>
         </div><!-- End Mobile Menu -->
