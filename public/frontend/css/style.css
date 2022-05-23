@@ -1,5 +1,3 @@
-/* Merix Creative Digital Agency HTML-5 Template HTML Template */
-
 /************ TABLE OF CONTENTS ***************
 1. Fonts
 2. Reset
@@ -47,11 +45,11 @@
 
 **********************************************/
 
-/* 
-	
+/*
+
 	font-family: 'Archivo', sans-serif;
 	font-family: 'Poppins', sans-serif;
-	
+
 */
 
 @import url("font-awesome.css");
@@ -65,7 +63,7 @@
 @import url("jquery.bootstrap-touchspin.css");
 @import url("jquery.mCustomScrollbar.min.css");
 
-/*** 
+/***
 
 ====================================================================
 	Reset
@@ -80,7 +78,7 @@
   outline: none;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Global Settings
@@ -216,7 +214,7 @@ img {
   text-align: center;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Scroll To Top style
@@ -1181,7 +1179,7 @@ img {
   height: auto;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Section Title
@@ -1260,7 +1258,7 @@ img {
 
 }
 
-/*** 
+/***
 
 ====================================================================
 	Login / Register Section
@@ -1382,7 +1380,7 @@ img {
 
 .checkout-section .styled-form select{
 	line-height:26px;
-	height:44px;	
+	height:44px;
 }
 
 .styled-form select{
@@ -1459,7 +1457,7 @@ img {
   background: #dd4b39;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Hidden Sidebar style
@@ -1583,7 +1581,7 @@ img {
   margin-left: 30px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Scroll To Top style
@@ -1637,7 +1635,7 @@ img {
   background-color: white;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Banner Section
@@ -1996,7 +1994,7 @@ img {
 
 .banner-section .owl-nav .owl-prev:hover,
 .banner-section .owl-nav .owl-next:hover {
-  /* sayam Note: slider arrow color 
+  /* sayam Note: slider arrow color
 	purple: 5c39b8
 	pink: ec3d66
 	*/
@@ -2043,7 +2041,7 @@ img {
   background-color: #ec3d66;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Services Section
@@ -2315,7 +2313,7 @@ img {
   background: linear-gradient(to bottom, #ff2800 0%, #ff2800 100%);
 }
 
-/*** 
+/***
 
 ====================================================================
 	About Section
@@ -2416,7 +2414,7 @@ img {
   position: relative;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Services Section Two
@@ -2830,7 +2828,7 @@ img {
   background: linear-gradient(to bottom, #ff8c00 0%, #ff0200 100%);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Clients Section
@@ -2881,7 +2879,7 @@ img {
   padding-top: 110px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Call To Action Section
@@ -2954,7 +2952,7 @@ img {
   z-index: 1;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Counter Section
@@ -3085,7 +3083,7 @@ img {
   color: #ffffff;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Testimonial Section
@@ -3295,7 +3293,7 @@ img {
   margin-top: 8px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Team Section
@@ -3533,7 +3531,7 @@ img {
   font-size: 24px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Pricing Section
@@ -3761,7 +3759,7 @@ img {
   color: #ffffff;
 }
 
-/*** 
+/***
 
 ====================================================================
 	News Section
@@ -3951,7 +3949,7 @@ img {
   background-color: #ff8d00;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Banner Section Two
@@ -4202,7 +4200,7 @@ img {
   background-color: #f64a1b;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Services Section Three
@@ -4345,7 +4343,7 @@ img {
 	color:#ff9d12;
 	font-size:54px;
 	line-height:1em;
-	background:url(../images/icons/shape-1.webp) left center no-repeat;
+	background:url(../images/icons/shape-1.png) left center no-repeat;
 	transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
 	-webkit-transition:all 500ms ease;
@@ -4440,7 +4438,7 @@ img {
   margin-bottom: 40px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Counter Section Two
@@ -4555,7 +4553,7 @@ img {
   color: #222222;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Services Section Four
@@ -5075,7 +5073,7 @@ img {
   color: #2346c0;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Call To Action Section Two
@@ -5152,7 +5150,7 @@ img {
   z-index: 1;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Clients Section Two
@@ -5213,7 +5211,7 @@ img {
   margin-left: 150px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Gallery Section
@@ -5408,7 +5406,7 @@ img {
 
 }
 
-/*** 
+/***
 
 ====================================================================
 	Testimonial Section Two
@@ -5560,7 +5558,7 @@ img {
   margin-top: 18px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Faq's Section Two
@@ -5676,7 +5674,7 @@ img {
   position: relative;
 }
 
-/*** 
+/***
 
 ====================================================================
 	News Section Two
@@ -5936,7 +5934,7 @@ img {
   background: linear-gradient(to right, #ff0300 0%, #ff8f00 100%);
 }
 
-/*** 
+/***
 
 ====================================================================
 	SEO Section
@@ -6073,7 +6071,7 @@ img {
   margin-top: 15px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Main Footer
@@ -6261,7 +6259,7 @@ img {
   color: #0a15a9;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Banner Section Three
@@ -6482,7 +6480,7 @@ img {
   position: absolute;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Mission Section
@@ -6571,7 +6569,7 @@ img {
   transform: scale(-1) rotate(180deg);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Services Section Five
@@ -6819,7 +6817,7 @@ img {
   transition: all 300ms ease;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Analysis Section
@@ -6881,7 +6879,7 @@ img {
   margin-bottom: 40px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Counter Section Three
@@ -6995,7 +6993,7 @@ img {
   text-transform: capitalize;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Steps Section
@@ -7099,7 +7097,7 @@ img {
   text-transform: uppercase;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Skill Section
@@ -7247,7 +7245,7 @@ img {
   text-transform: uppercase;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Demo Section
@@ -7407,7 +7405,7 @@ img {
   max-width: 500px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Testimonial Section Three
@@ -7539,7 +7537,7 @@ img {
   margin-top: 15px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Newsletter Section
@@ -7626,7 +7624,7 @@ img {
   position: relative;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Page Title
@@ -7753,7 +7751,7 @@ img {
   color: #fde20b;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Faq Page Section
@@ -7850,7 +7848,7 @@ img {
   margin-bottom: 20px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Team Page Section
@@ -7867,7 +7865,7 @@ img {
   margin-bottom: 40px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Team Single Section
@@ -7989,7 +7987,7 @@ img {
   margin-top: 18px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Testimonial Page Section
@@ -8006,7 +8004,7 @@ img {
   margin-bottom: 40px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Coming Soon
@@ -8394,7 +8392,7 @@ img {
   border-radius: 50%;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Privacy Section
@@ -8490,7 +8488,7 @@ img {
   background-color: #eb3867;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Services Page Section
@@ -8507,7 +8505,7 @@ img {
   margin-bottom: 50px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Sidebar Page Container
@@ -8651,9 +8649,9 @@ img {
 .broucher-widget .widget-content .download {
   position: relative;
   color: white;
-  
+
   font-size: 20px;
-  
+
   display: inline-block;
   text-align: center;
   padding: 20px 0;
@@ -8662,14 +8660,14 @@ img {
   -ms-transition: all 300ms ease;
   -o-transition: all 300ms ease;
   -moz-transition: all 300ms ease;
- 
+
   width: 250px;
   background-color:blue;
   text-decoration: none;
   justify-self: center;
   justify-content: center;
   border-radius: 10px;
-  
+
 }
 
 .broucher-widget .widget-content .download:hover {
@@ -8810,7 +8808,7 @@ img {
   margin-bottom: 30px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Gallery Detail Section
@@ -8975,7 +8973,7 @@ img {
   font-weight: 400;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Related Project Section
@@ -9733,7 +9731,7 @@ img {
   color: #fb8358;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Styled Pagination
@@ -10072,7 +10070,7 @@ img {
   color: #1c17a0;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Comments Area
@@ -10342,7 +10340,7 @@ img {
   margin-bottom: 30px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Contact Info Section
@@ -10500,7 +10498,7 @@ justify-content: space-around;
   position: center;
   margin-top: 60px;
   width: 45vw;
- 
+
 }
 
 .contact-form-section {
@@ -10656,7 +10654,7 @@ justify-content: space-around;
 	transition:all 500ms ease;
 	-webkit-transition:all 500ms ease;
 	-ms-transition:all 500ms ease;
-	-o-transition:all 500ms ease;	
+	-o-transition:all 500ms ease;
 
 }
 
@@ -10852,7 +10850,7 @@ justify-content: space-around;
   color: #e82a6a;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Cart Section style
@@ -11244,7 +11242,7 @@ justify-content: space-around;
   border-color: #eb3867;
 }
 
-/*** 
+/***
 
 ====================================================================
 	CheckOut Sectioon
@@ -11830,7 +11828,7 @@ justify-content: space-around;
   text-transform: uppercase;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Product Tabs Style
@@ -12089,7 +12087,7 @@ justify-content: space-around;
   font-family: "FontAwesome";
 }
 
-/*** 
+/***
 
 ====================================================================
 	Login / Register Section
@@ -13330,7 +13328,7 @@ justify-content: space-around;
   display: none;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Banner Section Four
@@ -13607,7 +13605,7 @@ justify-content: space-around;
   background-color: #ffffff;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Team Section Two
@@ -13894,7 +13892,7 @@ justify-content: space-around;
   background-color: #1da1f2;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Banner Section Five
@@ -14103,7 +14101,7 @@ justify-content: space-around;
   background-color: #f64a1b;
 }
 
-/*** 
+/***
 
 ====================================================================
 	SEO Section Two
@@ -14143,7 +14141,7 @@ justify-content: space-around;
   position: relative;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Business Section
@@ -14312,7 +14310,7 @@ justify-content: space-around;
   margin-top: 10px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Banner Section Six

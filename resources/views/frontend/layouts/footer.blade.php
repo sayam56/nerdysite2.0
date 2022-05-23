@@ -1,22 +1,22 @@
 	<!-- Main Footer -->
     <footer class="main-footer style-three">
-		<div class="pattern-layer customWave" style="background-image: url(images/background/pattern-3.webp);"></div>
-		<div class="pattern-layer-two" style="background-image: url(images/background/pattern-233.webp)"></div>
-		<div class="pattern-layer-three" style="background-image: url(images/background/pattern-5.webp)"></div>
+		<div class="pattern-layer customWave" style="background-image: url({{url('frontend/images/background/pattern-3.webp')}});"></div>
+		<div class="pattern-layer-three" style="background-image: url({{url('frontend/images/background/pattern-5.webp')}})"></div>
+		<div class="pattern-layer-two" style="background-image: url({{url('frontend/images/background/pattern-233.webp')}})"></div>
 		<div class="auto-container">
 			<!--Widgets Section-->
 			<div class="widgets-section">
-				<div class="row clearfix">	
+				<div class="row clearfix">
 					<!-- Column -->
 					<div class="big-column col-lg-6 col-md-12 col-sm-12">
 						<div class="row clearfix">
-							
+
 							<!-- Footer Column -->
 							<div class="footer-column col-lg-7 col-md-6 col-sm-12">
 								<div class="footer-widget logo-widget">
 									<div class="footerFirstCol">
 										<div class="logo">
-											<a href="/"><img loading="lazy" class="lazy" data-src="images/nameLogo.webp" alt="" /></a>
+											<a href="{{url('/')}}"><img loading="lazy" class="lazy" data-src="{{url('frontend/images/nameLogo.png')}}" alt="Nerd Evolution logo" /></a>
 										</div>
 										<div class="text">Connect With The Nerds</div>
 										<!-- Social Box -->
@@ -84,45 +84,45 @@
 									</div>
 								</div>
 							</div>
-									
+
 							<!-- Footer Column -->
 							<div class="footer-column col-lg-5 col-md-6 col-sm-12">
 								<div class="footer-widget links-widget">
 									<h4>Nerdy Services</h4>
 									<ul class="list-link">
-										<li><a href="brand_identity.html">Brand Identity</a></li>
-										<li><a href="graphics-design.html">Graphic Design</a></li>
-										<li><a href="ui_ux_design.html">UI/UX Design</a></li>
-										<li><a href="software-solutions.html">Software Solutions</a></li>
-										<li><a href="functional-resume.html">Functional CV</a></li>
-										<li><a href="social_media_marketing.html">Social Media Marketing</a></li>
+										<li><a href="{{url('/services/brand_identity')}}">Brand Identity</a></li>
+										<li><a href="{{url('/services/graphics_design')}}">Graphic Design</a></li>
+										<li><a href="{{url('/services/ui_ux_design')}}l">UI/UX Design</a></li>
+										<li><a href="{{url('/services/software_solutions')}}">Software Solutions</a></li>
+										<li><a href="{{url('/services/functional_resume')}}">Professional CV</a></li>
+										<li><a href="{{url('/services/social_media_marketing')}}">Social Media Marketing</a></li>
 									</ul>
 								</div>
 							</div>
-								
+
 						</div>
 					</div>
-						
+
 					<!-- Column -->
 					<div class="big-column col-lg-6 col-md-12 col-sm-12">
 						<div class="row clearfix">
-								
+
 							<!--Footer Column-->
 							<div class="footer-column col-lg-6 col-md-6 col-sm-12">
 								<div class="footer-widget links-widget">
 									<h4>Other Pages</h4>
 									<ul class="list-link">
-										<li><a href="./faq.html">FAQ</a></li>
-										<li><a href="./terms.html">Terms & Conditions</a></li>
-										<li><a href="./privacy.html">Privacy Policy</a></li>
-										<li><a href="./team.html">Know The Nerds</a></li>
+										<li><a href="{{url('/about/faq')}}">FAQ</a></li>
+										<li><a href="{{url('/about/terms_conditions')}}">Terms & Conditions</a></li>
+										<li><a href="{{url('/about/privacy_policy')}}">Privacy Policy</a></li>
+										<li><a href="{{url('/about/teams')}}">Know The Nerds</a></li>
 										<!-- <li><a href="">Student Friendly Source Code</a></li> -->
 									</ul>
 								</div>
 							</div>
 
 							<div class="footerSpacing"></div>
-								
+
 							<!-- Footer Column -->
 							<div class="footer-column col-lg-5 col-md-6 col-sm-12">
 								<div class="footer-widget links-widget">
@@ -136,22 +136,22 @@
 									</ul>
 								</div>
 							</div>
-								
+
 						</div>
 					</div>
-					
+
 				</div>
 			</div>
-				
+
 				<!-- Footer Bottom -->
 				<div class="footer-bottom">
-					<div class="copyright">Copyright © 2021 NerdEvolution. All Rights Reserved.</div>
+					<div class="copyright">Copyright © 2022 NerdEvolution. All Rights Reserved.</div>
 				</div>
-				
+
 		</div>
 	</footer>
 	<!-- End Main Footer -->
-	
+
 </div>
 <!--End pagewrapper-->
 
@@ -172,9 +172,9 @@
 	<ul class="header-version option-box"> <li class="box">No</li> <li>Yes</li></ul>
 	<h5>Dark Verion</h5>
 	<ul class="dark-version option-box"> <li class="box">Yes</li> <li>No</li></ul>
-	
+
     <a href="#" class="purchase-btn">Purchase now $17</a>
-    
+
     <div class="palate-foo">
         <span>You will find much more options and styling in admin panel.</span>
     </div>
@@ -197,23 +197,23 @@
 <!-- Scroll To Top -->
 <div class="back-to-top scroll-to-target show-back-to-top" data-target="html">TOP</div>
 
-<script src="js/jquery.js"></script>
-<script src="js/popper.min.js" defer></script>
-<script src="js/bootstrap.min.js" defer></script>
-<script src="js/jquery.mCustomScrollbar.concat.min.js" defer></script>
-<script src="js/appear.js" defer></script>
-<script src="js/parallax.min.js" defer></script>
-<script src="js/tilt.jquery.min.js" defer></script>
-<script src="js/jquery.paroller.min.js" defer></script>
-<script src="js/owl.js" defer></script>
-<script src="js/wow.js" defer></script>
-<script src="js/validate.js"></script>
-<!-- <script src="js/nav-tool.js"></script> -->
-<script src="js/script.js" defer></script>
-<script src="js/devToolsDetect.js" defer></script>
-<script src="js/disableDevKey.js" defer></script>
+<script src="{{url('frontend/js/jquery.js')}}"></script>
+<script src="{{url('frontend/js/popper.min.js')}}" defer></script>
+<script src="{{url('frontend/js/bootstrap.min.js')}}" defer></script>
+<script src="{{url('frontend/js/jquery.mCustomScrollbar.concat.min.js')}}" defer></script>
+<script src="{{url('frontend/js/appear.js')}}" defer></script>
+<script src="{{url('frontend/js/parallax.min.js')}}" defer></script>
+<script src="{{url('frontend/js/tilt.jquery.min.js')}}" defer></script>
+<script src="{{url('frontend/js/jquery.paroller.min.js')}}" defer></script>
+<script src="{{url('frontend/js/owl.js')}}" defer></script>
+<script src="{{url('frontend/js/wow.js')}}" defer></script>
+<script src="{{url('frontend/js/validate.js')}}"></script>
+{{--  <script src="{{url('frontend/js/nav-tool.js')}}"></script> --}}
+<script src="{{url('frontend/js/script.js')}}" defer></script>
+{{-- <script src="{{url('frontend/js/devToolsDetect.js')}}" defer></script>
+<script src="{{url('frontend/js/disableDevKey.js')}}" defer></script> --}}
 
-<script src="js/lazyloader.js"></script>
+<script src="{{url('frontend/js/lazyloader.js')}}"></script>
 <!-- updated -->
 </body>
 </html>
