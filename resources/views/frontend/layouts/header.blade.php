@@ -84,9 +84,9 @@
 										<li><a href="{{url('/services/software_solutions')}}">Software Solutions</a></li>
 										<li><a href="{{url('/services/graphics_design')}}">Graphics Design</a></li>
 										<li><a href="{{url('/services/functional_resume')}}">Functional CV</a></li>
-										<li><a href="{{url('/services/social_media_marketing')}}" style="white-space: nowrap;">Social Media Marketing</a></li>
-										<li><a href="{{url('/services/ui_ux_design')}}">UI/UX Design</a></li>
 										<li><a href="{{url('/services/brand_identity')}}">Brand Identity</a></li>
+                                        <li><a href="{{url('/services/ui_ux_design')}}">UI/UX Design</a></li>
+                                        <li><a href="{{url('/services/social_media_marketing')}}" style="white-space: nowrap;">Social Media Marketing</a></li>
 									</ul>
 								</li>
 								<li class="#"><a href="{{url('/projects')}}">Projects</a></li>
